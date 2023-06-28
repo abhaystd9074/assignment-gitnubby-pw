@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: 'Geologica', sans-serif;
+    }
+    body{
+        background-color:black;
+    }
+    .container{
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+        height: 450px;
+        width: 370px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    h1{
+        text-align: center;
+    }
+    label,input,select{
+        margin-left: 20px;
+    }
+    input{
+        margin-top: 3px;
+        width: 338px;
+        height: 20px;
+       
+    }
+    select{
+        width: 338px;
+        height: 30px;
+    }
+    label{
+       
+        font-size: medium;
+    }
+    button{
+        background-color:#000;
+        color: #fff;
+        font: bold;
+        font-size: large;
+        height: 30px;
+        width: 320px;
+        border: none;
+        margin-left: 27px;
+        border-radius: 5px;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Signup</h1>
+
+              <label for="name">Name:</label><br>
+           <input type="text" id="name" class="name">
+           <br>
+           <br>
+           <label for="option"> Batch:</label><br>
+            <select name="options" id="option"> 
+                <option value="Sigma2.0">Sigma2.0</option>
+                <option value="Sigma2.0">Binary</option>
+                <option value="Sigma2.0">Decode</option>
+            </select>
+            <br><br>
+            <label for="Age">Age:</label><br>
+            <input type="text" id="Age" >
+            <br><br>
+            <label for="Email">Email:</label><br>
+            <input type="Email" id="Email">
+            <br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password">
+            <br><br>
+            <button>Signup</button>
+        </div>
+    </div>
+</body>
+</html>
